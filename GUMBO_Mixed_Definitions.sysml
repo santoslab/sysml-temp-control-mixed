@@ -3,7 +3,7 @@ package GUMBO_Mixed_Definitions {
     library
       functions
 
-        def aboveAbsoluteZero(degrees: Base_Types::Float_32): Base_Types::Boolean := 
+        def aboveAbsoluteZero(degrees: Base_Types::Data_Float_32): Base_Types::Data_Boolean := 
           degrees > -459.67 [f32];
   }*/
 }

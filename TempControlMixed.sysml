@@ -4,12 +4,14 @@ package TempControlMixed {
 
   private import AADL::*;
   private import AADL_Project::*;
-  private import AADL_Project::Time_Units::*;
+	private import SI::*;  
+  private import SIPrefixes::*;
+  //private import AADL_Project::Time_Units::*;
 
   language "GUMBO" /*{
     library
       functions
-        def inRange(temp: Temperature): Base_Types::Boolean :=
+        def inRange(temp: Temperature): Base_Types::Data_Boolean :=
           temp.degrees >= -40.0 [f32] and temp.degrees <= 122.0 [f32];
   }*/
 
@@ -42,11 +44,11 @@ package TempControlMixed {
     out port tempChanged : EventPort;
     
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1 [s];
 
     language "GUMBO" /*{
       functions
-        def defaultTempDegrees(): Base_Types::Float_32 := 72 [f32];
+        def defaultTempDegrees(): Base_Types::Data_Float_32 := 72 [f32];
 
       integration
         guarantee Sensor_Temperature_Range:
@@ -67,7 +69,7 @@ package TempControlMixed {
     out port fanCmd : EventDataPort { out :> type : FanCmd; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Sporadic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1 [s];
 
     language "GUMBO" /*{
       state
@@ -192,7 +194,7 @@ package TempControlMixed {
     out port fanAck : EventDataPort { out :> type : FanAck; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1 [s];
   }
 
   part def OperatorInterface :> Thread {
@@ -201,13 +203,13 @@ package TempControlMixed {
     out port setPoint : EventDataPort { out :> type : SetPoint; }
     
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1 [s];
   }
 
   // Data Types
   part def Temperature :> Data {
 
-    part degrees : Base_Types::Float_32;
+    part degrees : Base_Types::Data_Float_32;
     attribute unit : TempUnit;
 
     language "GUMBO" /*{
