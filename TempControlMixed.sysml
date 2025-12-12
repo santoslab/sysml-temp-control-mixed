@@ -4,7 +4,7 @@ package TempControlMixed {
 
   private import AADL::*;
   private import AADL_Project::*;
-  private import AADL_Project::Time_Units::*;
+  private import HAMR::Time_Units::*;
 
   language "GUMBO" /*{
     library
@@ -42,7 +42,7 @@ package TempControlMixed {
     out port tempChanged : EventPort;
     
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1000 [ms];
 
     language "GUMBO" /*{
       functions
@@ -67,7 +67,7 @@ package TempControlMixed {
     out port fanCmd : EventDataPort { out :> type : FanCmd; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Sporadic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1000 [ms];
 
     language "GUMBO" /*{
       state
@@ -192,7 +192,7 @@ package TempControlMixed {
     out port fanAck : EventDataPort { out :> type : FanAck; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1000 [ms];
   }
 
   part def OperatorInterface :> Thread {
@@ -201,7 +201,7 @@ package TempControlMixed {
     out port setPoint : EventDataPort { out :> type : SetPoint; }
     
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
-    attribute :>> Period = 1000 [millisecond];
+    attribute :>> Period = 1000 [ms];
   }
 
   // Data Types
