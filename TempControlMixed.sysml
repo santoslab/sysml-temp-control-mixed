@@ -2,9 +2,7 @@
 
 package TempControlMixed {
 
-  private import AADL::*;
-  private import AADL_Project::*;
-  private import HAMR::Time_Units::*;
+  private import HAMR::*;
 
   language "GUMBO" /*{
     library
@@ -37,7 +35,7 @@ package TempControlMixed {
   // TempSensor Thread
   part def TempSensor :> Thread {
     // features
-    out port currentTemp : DataPort { out :> type : Temperature; }
+    out port currentTemp : DataPort { out :>> type : Temperature; }
 
     out port tempChanged : EventPort;
     
@@ -60,11 +58,11 @@ package TempControlMixed {
 
   part def TempControl :> Thread {
     // features
-    in port currentTemp : DataPort { in :> type : Temperature; }
+    in port currentTemp : DataPort { in :>> type : Temperature; }
     in port tempChanged : EventPort;
-    in port fanAck : EventDataPort { in :> type : FanAck; }
-    in port setPoint : EventDataPort { in :> type : SetPoint; }
-    out port fanCmd : EventDataPort { out :> type : FanCmd; }
+    in port fanAck : EventDataPort { in :>> type : FanAck; }
+    in port setPoint : EventDataPort { in :>> type : SetPoint; }
+    out port fanCmd : EventDataPort { out :>> type : FanCmd; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Sporadic;
     attribute :>> Period = 1000 [ms];
@@ -188,8 +186,8 @@ package TempControlMixed {
 
   part def Fan :> Thread {
     // features
-    in port fanCmd : EventDataPort { in :> type : FanCmd; }
-    out port fanAck : EventDataPort { out :> type : FanAck; }
+    in port fanCmd : EventDataPort { in :>> type : FanCmd; }
+    out port fanAck : EventDataPort { out :>> type : FanAck; }
 
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
     attribute :>> Period = 1000 [ms];
@@ -197,8 +195,8 @@ package TempControlMixed {
 
   part def OperatorInterface :> Thread {
     // features
-    in port currentTemp : DataPort { in :> type : Temperature; }
-    out port setPoint : EventDataPort { out :> type : SetPoint; }
+    in port currentTemp : DataPort { in :>> type : Temperature; }
+    out port setPoint : EventDataPort { out :>> type : SetPoint; }
     
     attribute :>> Dispatch_Protocol = Supported_Dispatch_Protocols::Periodic;
     attribute :>> Period = 1000 [ms];
