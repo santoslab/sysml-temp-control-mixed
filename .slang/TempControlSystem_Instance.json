@@ -335,7 +335,7 @@
                                           "type" : "Position",
                                           "uriOpt" : {
                                             "type" : "Some",
-                                            "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                            "value" : "aadl.library\/Base_Types.sysml"
                                           },
                                           "beginLine" : 119,
                                           "beginColumn" : 2,
@@ -358,7 +358,7 @@
                                           "type" : "Position",
                                           "uriOpt" : {
                                             "type" : "Some",
-                                            "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                            "value" : "aadl.library\/Base_Types.sysml"
                                           },
                                           "beginLine" : 119,
                                           "beginColumn" : 2,
@@ -379,7 +379,7 @@
                                       "type" : "Position",
                                       "uriOpt" : {
                                         "type" : "Some",
-                                        "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                        "value" : "aadl.library\/Base_Types.sysml"
                                       },
                                       "beginLine" : 119,
                                       "beginColumn" : 2,
@@ -401,7 +401,7 @@
                                     "type" : "Position",
                                     "uriOpt" : {
                                       "type" : "Some",
-                                      "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                      "value" : "aadl.library\/Base_Types.sysml"
                                     },
                                     "beginLine" : 119,
                                     "beginColumn" : 2,
@@ -11851,7 +11851,7 @@
                             "type" : "Position",
                             "uriOpt" : {
                               "type" : "Some",
-                              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                              "value" : "aadl.library\/Base_Types.sysml"
                             },
                             "beginLine" : 20,
                             "beginColumn" : 2,
@@ -11874,7 +11874,7 @@
                             "type" : "Position",
                             "uriOpt" : {
                               "type" : "Some",
-                              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                              "value" : "aadl.library\/Base_Types.sysml"
                             },
                             "beginLine" : 20,
                             "beginColumn" : 2,
@@ -11895,7 +11895,7 @@
                         "type" : "Position",
                         "uriOpt" : {
                           "type" : "Some",
-                          "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                          "value" : "aadl.library\/Base_Types.sysml"
                         },
                         "beginLine" : 20,
                         "beginColumn" : 2,
@@ -11917,7 +11917,7 @@
                       "type" : "Position",
                       "uriOpt" : {
                         "type" : "Some",
-                        "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                        "value" : "aadl.library\/Base_Types.sysml"
                       },
                       "beginLine" : 20,
                       "beginColumn" : 2,
@@ -12600,7 +12600,7 @@
                                 "type" : "Position",
                                 "uriOpt" : {
                                   "type" : "Some",
-                                  "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                  "value" : "aadl.library\/Base_Types.sysml"
                                 },
                                 "beginLine" : 119,
                                 "beginColumn" : 2,
@@ -12623,7 +12623,7 @@
                                 "type" : "Position",
                                 "uriOpt" : {
                                   "type" : "Some",
-                                  "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                                  "value" : "aadl.library\/Base_Types.sysml"
                                 },
                                 "beginLine" : 119,
                                 "beginColumn" : 2,
@@ -12644,7 +12644,7 @@
                             "type" : "Position",
                             "uriOpt" : {
                               "type" : "Some",
-                              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                              "value" : "aadl.library\/Base_Types.sysml"
                             },
                             "beginLine" : 119,
                             "beginColumn" : 2,
@@ -12666,7 +12666,7 @@
                           "type" : "Position",
                           "uriOpt" : {
                             "type" : "Some",
-                            "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                            "value" : "aadl.library\/Base_Types.sysml"
                           },
                           "beginLine" : 119,
                           "beginColumn" : 2,
@@ -12705,7 +12705,7 @@
                             "type" : "Position",
                             "uriOpt" : {
                               "type" : "Some",
-                              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                              "value" : "aadl.library\/Base_Types.sysml"
                             },
                             "beginLine" : 20,
                             "beginColumn" : 2,
@@ -12728,7 +12728,7 @@
                             "type" : "Position",
                             "uriOpt" : {
                               "type" : "Some",
-                              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                              "value" : "aadl.library\/Base_Types.sysml"
                             },
                             "beginLine" : 20,
                             "beginColumn" : 2,
@@ -12749,7 +12749,7 @@
                         "type" : "Position",
                         "uriOpt" : {
                           "type" : "Some",
-                          "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                          "value" : "aadl.library\/Base_Types.sysml"
                         },
                         "beginLine" : 20,
                         "beginColumn" : 2,
@@ -12771,7 +12771,7 @@
                       "type" : "Position",
                       "uriOpt" : {
                         "type" : "Some",
-                        "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+                        "value" : "aadl.library\/Base_Types.sysml"
                       },
                       "beginLine" : 20,
                       "beginColumn" : 2,
@@ -13159,7 +13159,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 119,
             "beginColumn" : 2,
@@ -13943,7 +13943,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 20,
             "beginColumn" : 2,
@@ -16191,7 +16191,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 41,
             "beginColumn" : 2,
@@ -16320,7 +16320,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 46,
             "beginColumn" : 2,
@@ -16449,7 +16449,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 50,
             "beginColumn" : 2,
@@ -16578,7 +16578,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 54,
             "beginColumn" : 2,
@@ -16707,7 +16707,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 58,
             "beginColumn" : 2,
@@ -16836,7 +16836,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 82,
             "beginColumn" : 2,
@@ -16965,7 +16965,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 87,
             "beginColumn" : 2,
@@ -17094,7 +17094,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 92,
             "beginColumn" : 2,
@@ -17223,7 +17223,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 97,
             "beginColumn" : 2,
@@ -17352,7 +17352,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 115,
             "beginColumn" : 2,
@@ -17403,7 +17403,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 124,
             "beginColumn" : 2,
@@ -17532,7 +17532,7 @@
             "type" : "Position",
             "uriOpt" : {
               "type" : "Some",
-              "value" : "file:\/\/\/Users\/belt\/devel\/sireum\/kekinian\/hamr\/sysml\/frontend\/jvm\/src\/test\/resources\/models\/sysmlv2-models\/sysml-aadl-libraries\/aadl.library\/Base_Types.sysml"
+              "value" : "aadl.library\/Base_Types.sysml"
             },
             "beginLine" : 141,
             "beginColumn" : 2,
