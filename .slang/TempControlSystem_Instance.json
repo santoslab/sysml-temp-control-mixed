@@ -15664,16 +15664,38 @@
                   "left" : {
                     "type" : "org.sireum.lang.ast.Exp.Binary",
                     "left" : {
-                      "type" : "org.sireum.lang.ast.Exp.Select",
-                      "receiverOpt" : {
-                        "type" : "Some",
-                        "value" : {
-                          "type" : "org.sireum.lang.ast.Exp.Ident",
-                          "id" : {
-                            "type" : "org.sireum.lang.ast.Id",
-                            "value" : "low",
+                      "type" : "org.sireum.lang.ast.Exp.Binary",
+                      "left" : {
+                        "type" : "org.sireum.lang.ast.Exp.Select",
+                        "receiverOpt" : {
+                          "type" : "Some",
+                          "value" : {
+                            "type" : "org.sireum.lang.ast.Exp.Ident",
+                            "id" : {
+                              "type" : "org.sireum.lang.ast.Id",
+                              "value" : "low",
+                              "attr" : {
+                                "type" : "org.sireum.lang.ast.Attr",
+                                "posOpt" : {
+                                  "type" : "Some",
+                                  "value" : {
+                                    "type" : "Position",
+                                    "uriOpt" : {
+                                      "type" : "Some",
+                                      "value" : "\/TempControlMixed.sysml"
+                                    },
+                                    "beginLine" : 228,
+                                    "beginColumn" : 11,
+                                    "endLine" : 228,
+                                    "endColumn" : 13,
+                                    "offset" : 8900,
+                                    "length" : 3
+                                  }
+                                }
+                              }
+                            },
                             "attr" : {
-                              "type" : "org.sireum.lang.ast.Attr",
+                              "type" : "org.sireum.lang.ast.ResolvedAttr",
                               "posOpt" : {
                                 "type" : "Some",
                                 "value" : {
@@ -15689,11 +15711,21 @@
                                   "offset" : 8900,
                                   "length" : 3
                                 }
+                              },
+                              "resOpt" : {
+                                "type" : "None"
+                              },
+                              "typedOpt" : {
+                                "type" : "None"
                               }
                             }
-                          },
+                          }
+                        },
+                        "id" : {
+                          "type" : "org.sireum.lang.ast.Id",
+                          "value" : "degrees",
                           "attr" : {
-                            "type" : "org.sireum.lang.ast.ResolvedAttr",
+                            "type" : "org.sireum.lang.ast.Attr",
                             "posOpt" : {
                               "type" : "Some",
                               "value" : {
@@ -15703,25 +15735,47 @@
                                   "value" : "\/TempControlMixed.sysml"
                                 },
                                 "beginLine" : 228,
-                                "beginColumn" : 11,
+                                "beginColumn" : 15,
                                 "endLine" : 228,
-                                "endColumn" : 13,
-                                "offset" : 8900,
-                                "length" : 3
+                                "endColumn" : 21,
+                                "offset" : 8904,
+                                "length" : 7
                               }
-                            },
-                            "resOpt" : {
-                              "type" : "None"
-                            },
-                            "typedOpt" : {
-                              "type" : "None"
                             }
+                          }
+                        },
+                        "targs" : [
+                        ],
+                        "attr" : {
+                          "type" : "org.sireum.lang.ast.ResolvedAttr",
+                          "posOpt" : {
+                            "type" : "Some",
+                            "value" : {
+                              "type" : "Position",
+                              "uriOpt" : {
+                                "type" : "Some",
+                                "value" : "\/TempControlMixed.sysml"
+                              },
+                              "beginLine" : 228,
+                              "beginColumn" : 11,
+                              "endLine" : 228,
+                              "endColumn" : 21,
+                              "offset" : 8900,
+                              "length" : 11
+                            }
+                          },
+                          "resOpt" : {
+                            "type" : "None"
+                          },
+                          "typedOpt" : {
+                            "type" : "None"
                           }
                         }
                       },
-                      "id" : {
-                        "type" : "org.sireum.lang.ast.Id",
-                        "value" : "degrees",
+                      "op" : ">=",
+                      "right" : {
+                        "type" : "org.sireum.lang.ast.Exp.LitF32",
+                        "value" : 50.0,
                         "attr" : {
                           "type" : "org.sireum.lang.ast.Attr",
                           "posOpt" : {
@@ -15733,17 +15787,15 @@
                                 "value" : "\/TempControlMixed.sysml"
                               },
                               "beginLine" : 228,
-                              "beginColumn" : 15,
+                              "beginColumn" : 26,
                               "endLine" : 228,
-                              "endColumn" : 21,
-                              "offset" : 8904,
+                              "endColumn" : 33,
+                              "offset" : 8915,
                               "length" : 7
                             }
                           }
                         }
                       },
-                      "targs" : [
-                      ],
                       "attr" : {
                         "type" : "org.sireum.lang.ast.ResolvedAttr",
                         "posOpt" : {
@@ -15757,9 +15809,9 @@
                             "beginLine" : 228,
                             "beginColumn" : 11,
                             "endLine" : 228,
-                            "endColumn" : 21,
+                            "endColumn" : 33,
                             "offset" : 8900,
-                            "length" : 11
+                            "length" : 22
                           }
                         },
                         "resOpt" : {
@@ -15768,35 +15820,8 @@
                         "typedOpt" : {
                           "type" : "None"
                         }
-                      }
-                    },
-                    "op" : ">=",
-                    "right" : {
-                      "type" : "org.sireum.lang.ast.Exp.LitF32",
-                      "value" : 50.0,
-                      "attr" : {
-                        "type" : "org.sireum.lang.ast.Attr",
-                        "posOpt" : {
-                          "type" : "Some",
-                          "value" : {
-                            "type" : "Position",
-                            "uriOpt" : {
-                              "type" : "Some",
-                              "value" : "\/TempControlMixed.sysml"
-                            },
-                            "beginLine" : 228,
-                            "beginColumn" : 26,
-                            "endLine" : 228,
-                            "endColumn" : 33,
-                            "offset" : 8915,
-                            "length" : 7
-                          }
-                        }
-                      }
-                    },
-                    "attr" : {
-                      "type" : "org.sireum.lang.ast.ResolvedAttr",
-                      "posOpt" : {
+                      },
+                      "opPosOpt" : {
                         "type" : "Some",
                         "value" : {
                           "type" : "Position",
@@ -15811,35 +15836,10 @@
                           "offset" : 8900,
                           "length" : 22
                         }
-                      },
-                      "resOpt" : {
-                        "type" : "None"
-                      },
-                      "typedOpt" : {
-                        "type" : "None"
                       }
                     },
-                    "opPosOpt" : {
-                      "type" : "Some",
-                      "value" : {
-                        "type" : "Position",
-                        "uriOpt" : {
-                          "type" : "Some",
-                          "value" : "\/TempControlMixed.sysml"
-                        },
-                        "beginLine" : 228,
-                        "beginColumn" : 11,
-                        "endLine" : 228,
-                        "endColumn" : 33,
-                        "offset" : 8900,
-                        "length" : 22
-                      }
-                    }
-                  },
-                  "op" : "&",
-                  "right" : {
-                    "type" : "org.sireum.lang.ast.Exp.Binary",
-                    "left" : {
+                    "op" : "&",
+                    "right" : {
                       "type" : "org.sireum.lang.ast.Exp.Binary",
                       "left" : {
                         "type" : "org.sireum.lang.ast.Exp.Select",
@@ -16014,266 +16014,6 @@
                         }
                       }
                     },
-                    "op" : "&",
-                    "right" : {
-                      "type" : "org.sireum.lang.ast.Exp.Binary",
-                      "left" : {
-                        "type" : "org.sireum.lang.ast.Exp.Select",
-                        "receiverOpt" : {
-                          "type" : "Some",
-                          "value" : {
-                            "type" : "org.sireum.lang.ast.Exp.Ident",
-                            "id" : {
-                              "type" : "org.sireum.lang.ast.Id",
-                              "value" : "low",
-                              "attr" : {
-                                "type" : "org.sireum.lang.ast.Attr",
-                                "posOpt" : {
-                                  "type" : "Some",
-                                  "value" : {
-                                    "type" : "Position",
-                                    "uriOpt" : {
-                                      "type" : "Some",
-                                      "value" : "\/TempControlMixed.sysml"
-                                    },
-                                    "beginLine" : 230,
-                                    "beginColumn" : 11,
-                                    "endLine" : 230,
-                                    "endColumn" : 13,
-                                    "offset" : 8978,
-                                    "length" : 3
-                                  }
-                                }
-                              }
-                            },
-                            "attr" : {
-                              "type" : "org.sireum.lang.ast.ResolvedAttr",
-                              "posOpt" : {
-                                "type" : "Some",
-                                "value" : {
-                                  "type" : "Position",
-                                  "uriOpt" : {
-                                    "type" : "Some",
-                                    "value" : "\/TempControlMixed.sysml"
-                                  },
-                                  "beginLine" : 230,
-                                  "beginColumn" : 11,
-                                  "endLine" : 230,
-                                  "endColumn" : 13,
-                                  "offset" : 8978,
-                                  "length" : 3
-                                }
-                              },
-                              "resOpt" : {
-                                "type" : "None"
-                              },
-                              "typedOpt" : {
-                                "type" : "None"
-                              }
-                            }
-                          }
-                        },
-                        "id" : {
-                          "type" : "org.sireum.lang.ast.Id",
-                          "value" : "degrees",
-                          "attr" : {
-                            "type" : "org.sireum.lang.ast.Attr",
-                            "posOpt" : {
-                              "type" : "Some",
-                              "value" : {
-                                "type" : "Position",
-                                "uriOpt" : {
-                                  "type" : "Some",
-                                  "value" : "\/TempControlMixed.sysml"
-                                },
-                                "beginLine" : 230,
-                                "beginColumn" : 15,
-                                "endLine" : 230,
-                                "endColumn" : 21,
-                                "offset" : 8982,
-                                "length" : 7
-                              }
-                            }
-                          }
-                        },
-                        "targs" : [
-                        ],
-                        "attr" : {
-                          "type" : "org.sireum.lang.ast.ResolvedAttr",
-                          "posOpt" : {
-                            "type" : "Some",
-                            "value" : {
-                              "type" : "Position",
-                              "uriOpt" : {
-                                "type" : "Some",
-                                "value" : "\/TempControlMixed.sysml"
-                              },
-                              "beginLine" : 230,
-                              "beginColumn" : 11,
-                              "endLine" : 230,
-                              "endColumn" : 21,
-                              "offset" : 8978,
-                              "length" : 11
-                            }
-                          },
-                          "resOpt" : {
-                            "type" : "None"
-                          },
-                          "typedOpt" : {
-                            "type" : "None"
-                          }
-                        }
-                      },
-                      "op" : "<=",
-                      "right" : {
-                        "type" : "org.sireum.lang.ast.Exp.Select",
-                        "receiverOpt" : {
-                          "type" : "Some",
-                          "value" : {
-                            "type" : "org.sireum.lang.ast.Exp.Ident",
-                            "id" : {
-                              "type" : "org.sireum.lang.ast.Id",
-                              "value" : "high",
-                              "attr" : {
-                                "type" : "org.sireum.lang.ast.Attr",
-                                "posOpt" : {
-                                  "type" : "Some",
-                                  "value" : {
-                                    "type" : "Position",
-                                    "uriOpt" : {
-                                      "type" : "Some",
-                                      "value" : "\/TempControlMixed.sysml"
-                                    },
-                                    "beginLine" : 230,
-                                    "beginColumn" : 26,
-                                    "endLine" : 230,
-                                    "endColumn" : 29,
-                                    "offset" : 8993,
-                                    "length" : 4
-                                  }
-                                }
-                              }
-                            },
-                            "attr" : {
-                              "type" : "org.sireum.lang.ast.ResolvedAttr",
-                              "posOpt" : {
-                                "type" : "Some",
-                                "value" : {
-                                  "type" : "Position",
-                                  "uriOpt" : {
-                                    "type" : "Some",
-                                    "value" : "\/TempControlMixed.sysml"
-                                  },
-                                  "beginLine" : 230,
-                                  "beginColumn" : 26,
-                                  "endLine" : 230,
-                                  "endColumn" : 29,
-                                  "offset" : 8993,
-                                  "length" : 4
-                                }
-                              },
-                              "resOpt" : {
-                                "type" : "None"
-                              },
-                              "typedOpt" : {
-                                "type" : "None"
-                              }
-                            }
-                          }
-                        },
-                        "id" : {
-                          "type" : "org.sireum.lang.ast.Id",
-                          "value" : "degrees",
-                          "attr" : {
-                            "type" : "org.sireum.lang.ast.Attr",
-                            "posOpt" : {
-                              "type" : "Some",
-                              "value" : {
-                                "type" : "Position",
-                                "uriOpt" : {
-                                  "type" : "Some",
-                                  "value" : "\/TempControlMixed.sysml"
-                                },
-                                "beginLine" : 230,
-                                "beginColumn" : 31,
-                                "endLine" : 230,
-                                "endColumn" : 37,
-                                "offset" : 8998,
-                                "length" : 7
-                              }
-                            }
-                          }
-                        },
-                        "targs" : [
-                        ],
-                        "attr" : {
-                          "type" : "org.sireum.lang.ast.ResolvedAttr",
-                          "posOpt" : {
-                            "type" : "Some",
-                            "value" : {
-                              "type" : "Position",
-                              "uriOpt" : {
-                                "type" : "Some",
-                                "value" : "\/TempControlMixed.sysml"
-                              },
-                              "beginLine" : 230,
-                              "beginColumn" : 26,
-                              "endLine" : 230,
-                              "endColumn" : 37,
-                              "offset" : 8993,
-                              "length" : 12
-                            }
-                          },
-                          "resOpt" : {
-                            "type" : "None"
-                          },
-                          "typedOpt" : {
-                            "type" : "None"
-                          }
-                        }
-                      },
-                      "attr" : {
-                        "type" : "org.sireum.lang.ast.ResolvedAttr",
-                        "posOpt" : {
-                          "type" : "Some",
-                          "value" : {
-                            "type" : "Position",
-                            "uriOpt" : {
-                              "type" : "Some",
-                              "value" : "\/TempControlMixed.sysml"
-                            },
-                            "beginLine" : 230,
-                            "beginColumn" : 11,
-                            "endLine" : 230,
-                            "endColumn" : 37,
-                            "offset" : 8978,
-                            "length" : 27
-                          }
-                        },
-                        "resOpt" : {
-                          "type" : "None"
-                        },
-                        "typedOpt" : {
-                          "type" : "None"
-                        }
-                      },
-                      "opPosOpt" : {
-                        "type" : "Some",
-                        "value" : {
-                          "type" : "Position",
-                          "uriOpt" : {
-                            "type" : "Some",
-                            "value" : "\/TempControlMixed.sysml"
-                          },
-                          "beginLine" : 230,
-                          "beginColumn" : 11,
-                          "endLine" : 230,
-                          "endColumn" : 37,
-                          "offset" : 8978,
-                          "length" : 27
-                        }
-                      }
-                    },
                     "attr" : {
                       "type" : "org.sireum.lang.ast.ResolvedAttr",
                       "posOpt" : {
@@ -16284,12 +16024,12 @@
                             "type" : "Some",
                             "value" : "\/TempControlMixed.sysml"
                           },
-                          "beginLine" : 229,
+                          "beginLine" : 228,
                           "beginColumn" : 11,
-                          "endLine" : 230,
-                          "endColumn" : 37,
-                          "offset" : 8938,
-                          "length" : 67
+                          "endLine" : 229,
+                          "endColumn" : 35,
+                          "offset" : 8900,
+                          "length" : 62
                         }
                       },
                       "resOpt" : {
@@ -16307,12 +16047,272 @@
                           "type" : "Some",
                           "value" : "\/TempControlMixed.sysml"
                         },
-                        "beginLine" : 229,
+                        "beginLine" : 228,
+                        "beginColumn" : 11,
+                        "endLine" : 229,
+                        "endColumn" : 35,
+                        "offset" : 8900,
+                        "length" : 62
+                      }
+                    }
+                  },
+                  "op" : "&",
+                  "right" : {
+                    "type" : "org.sireum.lang.ast.Exp.Binary",
+                    "left" : {
+                      "type" : "org.sireum.lang.ast.Exp.Select",
+                      "receiverOpt" : {
+                        "type" : "Some",
+                        "value" : {
+                          "type" : "org.sireum.lang.ast.Exp.Ident",
+                          "id" : {
+                            "type" : "org.sireum.lang.ast.Id",
+                            "value" : "low",
+                            "attr" : {
+                              "type" : "org.sireum.lang.ast.Attr",
+                              "posOpt" : {
+                                "type" : "Some",
+                                "value" : {
+                                  "type" : "Position",
+                                  "uriOpt" : {
+                                    "type" : "Some",
+                                    "value" : "\/TempControlMixed.sysml"
+                                  },
+                                  "beginLine" : 230,
+                                  "beginColumn" : 11,
+                                  "endLine" : 230,
+                                  "endColumn" : 13,
+                                  "offset" : 8978,
+                                  "length" : 3
+                                }
+                              }
+                            }
+                          },
+                          "attr" : {
+                            "type" : "org.sireum.lang.ast.ResolvedAttr",
+                            "posOpt" : {
+                              "type" : "Some",
+                              "value" : {
+                                "type" : "Position",
+                                "uriOpt" : {
+                                  "type" : "Some",
+                                  "value" : "\/TempControlMixed.sysml"
+                                },
+                                "beginLine" : 230,
+                                "beginColumn" : 11,
+                                "endLine" : 230,
+                                "endColumn" : 13,
+                                "offset" : 8978,
+                                "length" : 3
+                              }
+                            },
+                            "resOpt" : {
+                              "type" : "None"
+                            },
+                            "typedOpt" : {
+                              "type" : "None"
+                            }
+                          }
+                        }
+                      },
+                      "id" : {
+                        "type" : "org.sireum.lang.ast.Id",
+                        "value" : "degrees",
+                        "attr" : {
+                          "type" : "org.sireum.lang.ast.Attr",
+                          "posOpt" : {
+                            "type" : "Some",
+                            "value" : {
+                              "type" : "Position",
+                              "uriOpt" : {
+                                "type" : "Some",
+                                "value" : "\/TempControlMixed.sysml"
+                              },
+                              "beginLine" : 230,
+                              "beginColumn" : 15,
+                              "endLine" : 230,
+                              "endColumn" : 21,
+                              "offset" : 8982,
+                              "length" : 7
+                            }
+                          }
+                        }
+                      },
+                      "targs" : [
+                      ],
+                      "attr" : {
+                        "type" : "org.sireum.lang.ast.ResolvedAttr",
+                        "posOpt" : {
+                          "type" : "Some",
+                          "value" : {
+                            "type" : "Position",
+                            "uriOpt" : {
+                              "type" : "Some",
+                              "value" : "\/TempControlMixed.sysml"
+                            },
+                            "beginLine" : 230,
+                            "beginColumn" : 11,
+                            "endLine" : 230,
+                            "endColumn" : 21,
+                            "offset" : 8978,
+                            "length" : 11
+                          }
+                        },
+                        "resOpt" : {
+                          "type" : "None"
+                        },
+                        "typedOpt" : {
+                          "type" : "None"
+                        }
+                      }
+                    },
+                    "op" : "<=",
+                    "right" : {
+                      "type" : "org.sireum.lang.ast.Exp.Select",
+                      "receiverOpt" : {
+                        "type" : "Some",
+                        "value" : {
+                          "type" : "org.sireum.lang.ast.Exp.Ident",
+                          "id" : {
+                            "type" : "org.sireum.lang.ast.Id",
+                            "value" : "high",
+                            "attr" : {
+                              "type" : "org.sireum.lang.ast.Attr",
+                              "posOpt" : {
+                                "type" : "Some",
+                                "value" : {
+                                  "type" : "Position",
+                                  "uriOpt" : {
+                                    "type" : "Some",
+                                    "value" : "\/TempControlMixed.sysml"
+                                  },
+                                  "beginLine" : 230,
+                                  "beginColumn" : 26,
+                                  "endLine" : 230,
+                                  "endColumn" : 29,
+                                  "offset" : 8993,
+                                  "length" : 4
+                                }
+                              }
+                            }
+                          },
+                          "attr" : {
+                            "type" : "org.sireum.lang.ast.ResolvedAttr",
+                            "posOpt" : {
+                              "type" : "Some",
+                              "value" : {
+                                "type" : "Position",
+                                "uriOpt" : {
+                                  "type" : "Some",
+                                  "value" : "\/TempControlMixed.sysml"
+                                },
+                                "beginLine" : 230,
+                                "beginColumn" : 26,
+                                "endLine" : 230,
+                                "endColumn" : 29,
+                                "offset" : 8993,
+                                "length" : 4
+                              }
+                            },
+                            "resOpt" : {
+                              "type" : "None"
+                            },
+                            "typedOpt" : {
+                              "type" : "None"
+                            }
+                          }
+                        }
+                      },
+                      "id" : {
+                        "type" : "org.sireum.lang.ast.Id",
+                        "value" : "degrees",
+                        "attr" : {
+                          "type" : "org.sireum.lang.ast.Attr",
+                          "posOpt" : {
+                            "type" : "Some",
+                            "value" : {
+                              "type" : "Position",
+                              "uriOpt" : {
+                                "type" : "Some",
+                                "value" : "\/TempControlMixed.sysml"
+                              },
+                              "beginLine" : 230,
+                              "beginColumn" : 31,
+                              "endLine" : 230,
+                              "endColumn" : 37,
+                              "offset" : 8998,
+                              "length" : 7
+                            }
+                          }
+                        }
+                      },
+                      "targs" : [
+                      ],
+                      "attr" : {
+                        "type" : "org.sireum.lang.ast.ResolvedAttr",
+                        "posOpt" : {
+                          "type" : "Some",
+                          "value" : {
+                            "type" : "Position",
+                            "uriOpt" : {
+                              "type" : "Some",
+                              "value" : "\/TempControlMixed.sysml"
+                            },
+                            "beginLine" : 230,
+                            "beginColumn" : 26,
+                            "endLine" : 230,
+                            "endColumn" : 37,
+                            "offset" : 8993,
+                            "length" : 12
+                          }
+                        },
+                        "resOpt" : {
+                          "type" : "None"
+                        },
+                        "typedOpt" : {
+                          "type" : "None"
+                        }
+                      }
+                    },
+                    "attr" : {
+                      "type" : "org.sireum.lang.ast.ResolvedAttr",
+                      "posOpt" : {
+                        "type" : "Some",
+                        "value" : {
+                          "type" : "Position",
+                          "uriOpt" : {
+                            "type" : "Some",
+                            "value" : "\/TempControlMixed.sysml"
+                          },
+                          "beginLine" : 230,
+                          "beginColumn" : 11,
+                          "endLine" : 230,
+                          "endColumn" : 37,
+                          "offset" : 8978,
+                          "length" : 27
+                        }
+                      },
+                      "resOpt" : {
+                        "type" : "None"
+                      },
+                      "typedOpt" : {
+                        "type" : "None"
+                      }
+                    },
+                    "opPosOpt" : {
+                      "type" : "Some",
+                      "value" : {
+                        "type" : "Position",
+                        "uriOpt" : {
+                          "type" : "Some",
+                          "value" : "\/TempControlMixed.sysml"
+                        },
+                        "beginLine" : 230,
                         "beginColumn" : 11,
                         "endLine" : 230,
                         "endColumn" : 37,
-                        "offset" : 8938,
-                        "length" : 67
+                        "offset" : 8978,
+                        "length" : 27
                       }
                     }
                   },
